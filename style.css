@@ -4,6 +4,7 @@ body{
     text-align: center;
     
 }
+.recuo { text-indent:4em }
 
 .informativo{
   padding: 3em 0;
@@ -28,9 +29,10 @@ body{
   
 }
 
-h3{
+h3, h5{
   text-align: left;
   padding-left: 3%;
+  padding-bottom: 10px;
 }
 
 .texto2{
@@ -44,6 +46,7 @@ footer{
   text-align: center;
   padding: 40px 0;
   font-size: 12px;
+  margin-top: 80px;
 }
 
 .copyrights{
@@ -54,8 +57,33 @@ footer{
 
 .criacao-persoangem{
   display: inline-block;
-  width: 400px;
+  width: 500px;
   height: 200px;
-  padding: 5px;
-  padding: 1;
+  padding: 10px;
+  margin: 20px;
+ 
 }
+.form-check{
+  margin: 10px;
+  padding: 5px;
+}
+
+.titulo{
+  margin: 20px;
+  color: yellow;
+}
+
+.btn{
+  margin: 50px
+  
+}
+
+.foto{
+  width: 250x;
+  height: 150px;
+  position: absolute; 
+	right: 120px; /* posiciona a 90px para a esquerda */ 
+	top: 510px; 
+  
+}
+
